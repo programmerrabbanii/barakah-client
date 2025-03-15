@@ -108,7 +108,7 @@ const Login = () => {
 
           <motion.button
             type="submit"
-            className="btn bg-green-600 w-full p-3 rounded-md text-white font-semibold hover:bg-green-700 focus:outline-none focus:ring-2 focus:ring-green-400 mb-4 transition-all ease-in-out duration-300"
+            className="btn bg-purple-600 w-full p-3 rounded-md text-white font-semibold hover:bg-purple-700 focus:outline-none focus:ring-2 focus:ring-purple-400 mb-4 transition-all ease-in-out duration-300"
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
           >
@@ -118,7 +118,7 @@ const Login = () => {
 
         <motion.button
           onClick={handleGoogleLogin}
-          className="btn border-2 border-gray-300 w-full p-3 rounded-md text-gray-700 font-semibold hover:bg-gray-200 focus:outline-none focus:ring-2 focus:ring-purple-400 flex items-center justify-center gap-3 transition-all ease-in-out duration-300"
+          className="btn  bg-purple-600 w-full p-3 rounded-md text-white font-semibold hover:bg-purple-700 focus:outline-none focus:ring-2 focus:ring-purple-400 mb-4 transition-all ease-in-out duration-300"
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ duration: 1.5, delay: 1 }}
